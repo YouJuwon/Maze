@@ -21,6 +21,7 @@ public class Maze {
                 maze[i][j] = Byte.parseByte(input.substring(j,j+1));
         }
     }
+    //알아서 바뀌나?
     private void printMaze() {  //Print maze struct
         for(byte[] cloumn : maze) {
             for(byte value : cloumn)
